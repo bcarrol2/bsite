@@ -2,6 +2,9 @@
     background-image: url('./imgs/wallp.png');
     background-repeat: no-repeat;
     background-size: 150%;
+    display: block;
+    content: "";
+    opacity: .5;
 }
 
 .homepage {
