@@ -12,12 +12,12 @@ footer {
   height: 40px;
   width: 100%;
   background-color: #00CCCC;
-  position: absolute;
+  position: fixed;
   left: 0px;
   bottom: 0px;
 }
 
-.wrapper {
+#wrapper {
     min-height: 100%;
     position: relative;
 }
@@ -60,4 +60,9 @@ footer {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+#navbar {
+    border-radius: 5px; 
+    background-color: #e3f2fd;
 }
