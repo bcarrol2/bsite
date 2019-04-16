@@ -5,15 +5,21 @@
     display: block;
     content: "";
     opacity: .5;
+    font-family: monospace
 }
 
 footer {
   height: 40px;
   width: 100%;
-  background-color: aqua;
+  background-color: #00CCCC;
   position: absolute;
   left: 0px;
   bottom: 0px;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
 }
 
 .homepage {
